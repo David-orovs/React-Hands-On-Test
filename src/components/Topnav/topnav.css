@@ -1,0 +1,19 @@
+.topnav {
+  height: 4rem;
+  border-bottom: 0.4000000059604645px solid #dbe3ee;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 0 1rem;
+}
+
+.topnav img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.topnav .logo p {
+  font-weight: 300;
+}

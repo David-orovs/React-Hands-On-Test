@@ -1,0 +1,35 @@
+.speciesSection {
+  background: #f6f6f6 0% 0% no-repeat padding-box;
+  height: 100%;
+  padding-top: 3rem;
+}
+
+.speciesCard {
+  margin: 0 auto;
+  width: 95%;
+  padding: 1rem 2rem;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.speciesHead,
+.species {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.speciesHead p {
+  color: #a3abb7;
+  font-size: 0.8rem;
+  font-weight: 300;
+  width: 14%;
+}
+
+.species p {
+  width: 15%;
+  color: #2c2c2c;
+  font-size: 0.7rem;
+  font-weight: 300;
+}
