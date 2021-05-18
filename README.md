@@ -1,77 +1,24 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
-not validating auth 
-set userinfo true on submit handler 
-hardcode the boxes 
-set up redux
-setuserinfo
+Summary
+Given some UI design mock-ups and a set of API endpoints, you are expected to build a mini web front-end application from the mock-ups, and integrate the API endpoints accordingly.
+The objective is to assess your HTML, JS, and CSS skills; creativity; problem solving approach; code structure and “cleanliness”; and general problem interpretation.
+The Design Mock-ups
+You can find the UI mock-ups at this link: https://xd.adobe.com/view/07678de3-f5c3-4ddb-4f34-375d0d8b8a8b-7156/​. The mock-ups can be viewed in presentation mode where you can click on some elements interactively; or in design specs mode where you can click on the design elements and export the required icons and colors.
+You can take time out to go through the mock-ups first and reach out if you need any help with anything, or have any questions.
+The API
+The API endpoints you will be working with are documented here:
+https://swapi.dev/documentation
+The Task
+Build the web front-end for the UI mock-ups provided, using HTML, CSS, and JavaScript, and/or a JS Front-end framework of your choice (​React​ will be a plus). Hook up the data from the APIs in the appropriate places on the front-end as depicted by the UI mock-ups.
+Things to Note
+● Build the layout to match the design mock-up as best as possible.
+● The login page should be the first page viewed
+● The login page has no APIs to be implemented, i.e. on click of “Sign In” you can
+simply display the dashboard. But note the following requirements for the login page:
+○ The email and password fields are required
+○ The email must be a valid email address
+○ The password must be a combination of letters and numbers, and must be at
+least 8 characters
+  
+○ The Sign In button should be disabled until the email and password fields pass validation.
+● Any detail from the mock-up that has no representation from the API, you can simply display the detail as it is
+● You are free to add your own bit of creativity to a reasonable extent, but it’s advisable to not do so to the detriment of the time you have to complete the task.
